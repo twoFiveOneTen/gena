@@ -1,4 +1,4 @@
-module github.com/x1ah/gena
+module github.com/twoFiveOneTen/gena
 
 go 1.16
 
