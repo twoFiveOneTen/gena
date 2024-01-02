@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/x1ah/gena"
+	"github.com/twoFiveOneTen/gena"
 )
 
 // Generator is interface of template generator
@@ -17,7 +17,7 @@ type Generator interface {
 
 // favicon return favicon of url
 func favicon(rawurl string) string {
-	base := "https://f.start.me/%s"
+	base := "https://navi.zkk.me/icon/%s"
 	rawurl = strings.TrimSpace(rawurl)
 	u, err := url.Parse(rawurl)
 	if err != nil {
