@@ -17,7 +17,7 @@ type Generator interface {
 
 // favicon return favicon of url
 func favicon(rawurl string) string {
-	base := "https://navi.zkk.me/icon/%s"
+	base := "https://navi.zkk.me/icon/%s.png"
 	rawurl = strings.TrimSpace(rawurl)
 	u, err := url.Parse(rawurl)
 	if err != nil {
