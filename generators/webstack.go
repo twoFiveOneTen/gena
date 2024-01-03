@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/x1ah/gena"
+	"github.com/twoFiveOneTen/gena"
 )
 
 // WebStackGenerator generate webstack template
